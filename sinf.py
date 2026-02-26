@@ -1,5 +1,4 @@
 # 🔢 Sinflar bo‘yicha o‘quvchilar soni
-
 sinf_soni = {
     "1-'a'": 28, "1-'b'": 30, "1-'d'": 26,
     "2-'a'": 27, "2-'b'": 29, "2-'d'": 25,

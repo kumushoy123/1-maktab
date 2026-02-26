@@ -1,18 +1,14 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-
-# ⭐ ASOSIY MENU
+# ASOSIY MENU
 menu = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text="1-maktab haqida🏨")],
     [KeyboardButton(text="📚Fanlar"), KeyboardButton(text="Sinflar")],
-    [
-        KeyboardButton(text="📞Nomer qoldirish", request_contact=True),
-        KeyboardButton(text="📍Manzilimiz")
-    ]
+    [KeyboardButton(text="📞Nomer qoldirish", request_contact=True),
+     KeyboardButton(text="📍Manzilimiz")]
 ], resize_keyboard=True)
 
-
-# ⭐ FANLAR
+# FANLAR
 fanlar = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text="Ona-tili"), KeyboardButton(text="Matematika")],
     [KeyboardButton(text="Adabiyot"), KeyboardButton(text="Tarix")],
@@ -24,8 +20,7 @@ fanlar = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text="🔙orqaga")],
 ], resize_keyboard=True)
 
-
-# ⭐ SINFLAR
+# SINFLAR
 sinflar = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text="1-'a'"), KeyboardButton(text="1-'b'"), KeyboardButton(text="1-'d'")],
     [KeyboardButton(text="2-'a'"), KeyboardButton(text="2-'b'"), KeyboardButton(text="2-'d'")],
