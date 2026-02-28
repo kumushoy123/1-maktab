@@ -139,12 +139,10 @@ async def back(msg: Message):
 # ======================
 # Manzil
 # ======================
-@dp.message(F.text == """📍 Bizning manzilimiz:
-
-
-""")
+@dp.message(F.text == "📍Manzilimiz")
 async def location(msg: Message):
-    await msg.answer_location(latitude=40.417, longitude=68.667)
+    await msg.answer("Bizning manzilimiz:")
+    await msg.answer_location(40.49750293481367, 68.70206172001942)
 
 
 
