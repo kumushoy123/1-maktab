@@ -148,7 +148,7 @@ Mirzaobod tumani
 📞 Aloqa: +998 20 016 09 31")
 """)
 async def location(msg: Message):
-    await msg.answer_location(latitude=40.417, longitude=68.667)
+    await msg.answer_location(40.495268252038976, 68.70412838323568)
 
 
 
