@@ -5,7 +5,7 @@ menu = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text="1-maktab haqida🏨")],
     [KeyboardButton(text="📚Fanlar"), KeyboardButton(text="Sinflar")],
     [KeyboardButton(text="📞Nomer qoldirish", request_contact=True),
-     KeyboardButton(text="📍Manzilimiz")]
+     KeyboardButton(text="📍 Bizning manzilimiz:")]
 ], resize_keyboard=True)
 
 # FANLAR
