@@ -139,22 +139,17 @@ async def back(msg: Message):
 # ======================
 # Manzil
 # ======================
-@dp.message(F.text == "📍Manzilimiz")
-async def location(msg: Message):
-    
-
-    text = """
-<b>📍 Bizning manzilimiz:</b>
+@dp.message(F.text == """📍 Bizning manzilimiz:
 
 Sirdaryo viloyati  
 Mirzaobod tumani  
 1-sonli maktab  
 
-📞 Aloqa: +998 20 016 09 31
-
-"""
+📞 Aloqa: +998 20 016 09 31")
+""")
+async def location(msg: Message):
     await msg.answer_location(latitude=40.417, longitude=68.667)
-    await msg.answer(text)
+
 
 
 # ======================
